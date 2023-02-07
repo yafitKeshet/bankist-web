@@ -205,7 +205,7 @@ btnLoan.addEventListener('click', function (e) {
     // Update UI
     updateUI(currentAccount);
   } else {
-    alert('You cannot take a loan :(');
+    alert('You can מםאt take a loan for that amount :(');
   }
 });
 
