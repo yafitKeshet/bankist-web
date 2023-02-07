@@ -229,7 +229,7 @@ btnClose.addEventListener('click', function (e) {
     alert(`${inputCloseUsername.value} was remove successfully!`);
   } else {
     alert(`The user was not deleted, one of the details is incorrect.
-    please try again.`);
+please try again.`);
   }
 
   // Clear input fields
