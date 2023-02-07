@@ -1,13 +1,14 @@
 # Bankist
 
-link: https://bankist-web-yafit-mizrahi.netlify.app/
+link: https://bankist-web-yafit-mizrahi.netlify.app/.
+
 Its main features are login system, user authentication, requesting loan, transfer money, sort your movements and delete your account.
 
 -- USERS --
 1. username: js, 
   owner: 'Jonas Schmedtmann',
   movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
-  interestRate: 1.2, // %
+  interestRate: 1.2, 
   pin: 1111
 
 2. username: jd, 
