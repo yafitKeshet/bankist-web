@@ -159,7 +159,7 @@ btnLogin.addEventListener('click', function (e) {
     updateUI(currentAccount);
   } else {
     alert(`Login failed, one of the details is incorrect.
-    please try again!`);
+please try again!`);
   }
 });
 
