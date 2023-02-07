@@ -226,6 +226,8 @@ btnClose.addEventListener('click', function (e) {
     // Hide UI
     containerApp.style.opacity = 0;
 
+    // Display UI and message
+    labelWelcome.textContent = 'Log in to get started';
     alert(`${inputCloseUsername.value} was remove successfully!`);
   } else {
     alert(`The user was not deleted, one of the details is incorrect.
