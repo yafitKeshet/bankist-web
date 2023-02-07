@@ -158,7 +158,8 @@ btnLogin.addEventListener('click', function (e) {
     // Update UI
     updateUI(currentAccount);
   } else {
-    alert('NOOOOOOOOOOo');
+    alert(`Login failed, one of the details is incorrect.
+    please try again!`);
   }
 });
 
@@ -184,6 +185,8 @@ btnTransfer.addEventListener('click', function (e) {
 
     // Update UI
     updateUI(currentAccount);
+  } else {
+    alert('The transfer is failed :(');
   }
 });
 
@@ -201,6 +204,8 @@ btnLoan.addEventListener('click', function (e) {
 
     // Update UI
     updateUI(currentAccount);
+  } else {
+    alert('You cannot take a loan :(');
   }
 });
 
@@ -220,6 +225,11 @@ btnClose.addEventListener('click', function (e) {
 
     // Hide UI
     containerApp.style.opacity = 0;
+
+    alert(`${inputCloseUsername.value} was remove successfully!`);
+  } else {
+    alert(`The user was not deleted, one of the details is incorrect.
+    please try again.`);
   }
 
   // Clear input fields
